@@ -4,3 +4,9 @@ console.log("Il gioco consiste nel lancio di un dado, sia per il giocatore sia p
 // Dichiarazione delle variabili per User e CPU
 let userNumber;
 let cpuNumber;
+
+// Ogni variabile avrà come valore un numero casuale tra 1 e 6, come un dado
+userNumber = Math.round(Math.random() * 6);
+console.log("Hai lanciato il dado, il tuo numero: " + userNumber)
+cpuNumber = Math.round(Math.random() * 6);
+console.log("Il tuo avversario ha lanciato il dado, il suo numero: " + cpuNumber)
