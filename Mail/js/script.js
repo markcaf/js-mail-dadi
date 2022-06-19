@@ -21,3 +21,13 @@ for (let i = 0; i < mailApproved.length ; i++){
         mailVerified = true;
     }
 }
+
+// Condizione di verifica di corrispondenza tra l'email utente e quelle approvate
+if ( mailVerified == true ){
+    message = "Accesso consentito, benvenuto";
+} else {
+    message = "Accesso negato, la mail non è autorizzata";
+}
+
+// Stampare in console esito del controllo
+console.log(message);
