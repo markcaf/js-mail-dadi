@@ -10,3 +10,6 @@ userNumber = Math.round(Math.random() * 6);
 console.log("Hai lanciato il dado, il tuo numero: " + userNumber)
 cpuNumber = Math.round(Math.random() * 6);
 console.log("Il tuo avversario ha lanciato il dado, il suo numero: " + cpuNumber)
+
+// Dichiarazione di una variabile message per indicare il risultato del gioco
+let message;
